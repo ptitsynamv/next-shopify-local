@@ -19,19 +19,12 @@
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwMjY3OTk4MDM=",
           "name": "Size",
-          "values": [
-            "s",
-            "l",
-            "m"
-          ]
+          "values": ["s", "l", "m"]
         },
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwODQxNzY1NzE=",
           "name": "Color",
-          "values": [
-            "#000000",
-            "#ffffff"
-          ]
+          "values": ["#000000", "#ffffff"]
         }
       ],
       "variants": [
@@ -265,19 +258,12 @@
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxNTc3NTU=",
           "name": "Size",
-          "values": [
-            "l",
-            "m",
-            "s"
-          ]
+          "values": ["l", "m", "s"]
         },
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxOTA1MjM=",
           "name": "Color",
-          "values": [
-            "#000000",
-            "#ffffff"
-          ]
+          "values": ["#000000", "#ffffff"]
         }
       ],
       "variants": [
@@ -517,17 +503,12 @@
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NjAxNTY2MDM=",
           "name": "Size",
-          "values": [
-            "m",
-            "s"
-          ]
+          "values": ["m", "s"]
         },
         {
           "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NjAxODkzNzE=",
           "name": "Color",
-          "values": [
-            "#000000"
-          ]
+          "values": ["#000000"]
         }
       ],
       "variants": [
@@ -619,6 +600,146 @@
         },
         {
           "originalSrc": "Men-TShirt-White-Back__33450.1603284781.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Renovation",
+      "id": "1",
+      "handle": "custom-kitchen-renovation-package",
+      "title": "Custom Kitchen Renovation Package",
+      "vendor": "Renovation",
+      "description": "Transform your cooking space with a fully customized kitchen renovation. Includes cabinetry, countertops, backsplash tiling, lighting, and flooring. Designed to fit your style and maximize functionality.",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Transform your cooking space with a fully customized kitchen renovation. Includes cabinetry, countertops, backsplash tiling, lighting, and flooring. Designed to fit your style and maximize functionality.</span><br data-mce-fragment=\"1\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "9500",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "9500",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lk",
+          "name": "Option",
+          "values": ["Modern", "Classic", "Minimalist", "Luxury"]
+        }
+      ],
+      "variants": [],
+      "images": [
+        {
+          "originalSrc": "Men-TShirt-Black-Front__70046.1603748348.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Renovation",
+      "id": "2",
+      "handle": "bathroom-remodeling-package",
+      "title": "Bathroom Remodeling Package",
+      "vendor": "Renovation",
+      "description": "Complete bathroom remodeling with plumbing, tiling, waterproofing, and vanity installation. Perfect for upgrading to a modern, spa-like retreat or simply refreshing an outdated design.",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Complete bathroom remodeling with plumbing, tiling, waterproofing, and vanity installation. Perfect for upgrading to a modern, spa-like retreat or simply refreshing an outdated design.</span><br data-mce-fragment=\"1\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "7200",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "7200",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkd3f3",
+          "name": "Option",
+          "values": ["Walk-in Shower", "Bathtub Upgrade", "Luxury Fixtures"]
+        }
+      ],
+      "variants": [],
+      "images": [
+        {
+          "originalSrc": "Men-TShirt-Black-Front__70046.1603748348.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Renovation",
+      "id": "3",
+      "handle": "custom-built-in-wardrobe-cabinets",
+      "title": "Custom Built-in Wardrobe & Cabinets",
+      "vendor": "Renovation",
+      "description": "Space-saving custom cabinetry and wardrobes, tailored to fit your home perfectly. Choose from a wide range of finishes and styles for seamless integration into any room.",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Space-saving custom cabinetry and wardrobes, tailored to fit your home perfectly. Choose from a wide range of finishes and styles for seamless integration into any room.</span><br data-mce-fragment=\"1\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "3000",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "3000",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkd3f3f23d2",
+          "name": "Option",
+          "values": ["Sliding Doors", "Hinged Doors", "Luxury Finishes"]
+        }
+      ],
+      "variants": [],
+      "images": [
+        {
+          "originalSrc": "Men-TShirt-Black-Front__70046.1603748348.png",
+          "altText": "",
+          "width": 2048,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "__typename": "Renovation",
+      "id": "4",
+      "handle": "complete-home-renovation-service",
+      "title": "Complete Home Renovation Service",
+      "vendor": "Renovation",
+      "description": "A full-service renovation package covering electrical work, plumbing, flooring, wallpapering, ceilings, and more. Ideal for clients who want a top-to-bottom transformation of their living space.",
+      "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">A full-service renovation package covering electrical work, plumbing, flooring, wallpapering, ceilings, and more. Ideal for clients who want a top-to-bottom transformation of their living space.</span><br data-mce-fragment=\"1\">",
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "9000",
+          "currencyCode": "EUR"
+        },
+        "maxVariantPrice": {
+          "amount": "9000",
+          "currencyCode": "EUR"
+        }
+      },
+      "options": [
+        {
+          "id": "Z2lkd3fdd2d23f23d2",
+          "name": "Option",
+          "values": ["Modern Style", "Classic Style", "Custom Design"]
+        }
+      ],
+      "variants": [],
+      "images": [
+        {
+          "originalSrc": "Men-TShirt-Black-Front__70046.1603748348.png",
           "altText": "",
           "width": 2048,
           "height": 2048
