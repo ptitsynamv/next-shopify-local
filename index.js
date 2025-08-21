@@ -496,16 +496,23 @@ const resolvers = {
       )?.node;
       return product || null;
     },
-    products: (parent, args, context, info) => {
-      console.log('products:', { args });
+    products: async (parent, args, context, info) => {
       const products = await getAllProducts(args);
-      const {query}= args;
+      const { query } = args;
       if (query) {
-        // TODO: Implement search logic
+        const [searchField, searchValue] = query.split(':');
+        const filteredEdges = products.edges.filter((edge) => {
+          const node = edge.node;
+          if (searchField === 'vendor') {
+            return node.vendor
+              .toLowerCase()
+              .includes(searchValue.toLowerCase());
+          }
+          return false;
+        });
+        products.edges = filteredEdges;
       }
-
-
-      return getAllProducts(args);
+      return products;
     },
   },
 };
